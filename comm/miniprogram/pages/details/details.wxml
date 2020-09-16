@@ -1,0 +1,45 @@
+<view>
+	<!-- 头部自定义组件的引用 -->
+	<view>
+		<component-tag-name inner-text="Some text"></component-tag-name>
+	</view>
+
+	<view class="home">
+		<image src="cloud://jasper.6a61-jasper-1302923454/index_image/bg2.png"></image>
+	</view>
+	<view class="f_cat">
+		<view wx:for="{{title_cat}}" wx:key="index">
+			<navigator class="t_cat" url="/pages/detail/detail?id={{item.id}}" open-type="navigate">
+				<image src="{{item.url}}"></image>
+				<view>{{item.name}}</view>
+			</navigator>
+		</view>
+	</view>
+	<view class="home_shop">
+		<image src="cloud://jasper.6a61-jasper-1302923454/index_image/lan2.png"></image>
+	</view>
+
+	<view class="details_bu">布偶猫</view>
+	<view class="picture">
+		<image src="cloud://jasper.6a61-jasper-1302923454/index_image/buou.jpg"></image>
+		<image src="cloud://jasper.6a61-jasper-1302923454/index_image/buou_2.jpg"></image>
+		<image src="cloud://jasper.6a61-jasper-1302923454/index_image/buou_3.jpg"></image>
+		<image src="cloud://jasper.6a61-jasper-1302923454/index_image/d_2.jpg"></image>
+		<image src="cloud://jasper.6a61-jasper-1302923454/index_image/d_9.jpg"></image>
+		<image src="cloud://jasper.6a61-jasper-1302923454/index_image/card.jpg"></image>
+		<image src="cloud://jasper.6a61-jasper-1302923454/index_image/card2.jpg"></image>
+	</view>
+
+	<view class="picture_2">
+		<image src="cloud://jasper.6a61-jasper-1302923454/index_image/d_3.jpg"></image>
+	</view>
+	<view class="picture">
+		<image style="height:500rpx;" src="cloud://jasper.6a61-jasper-1302923454/index_image/d_5.jpg"></image>
+		<image style="height:500rpx;" src="cloud://jasper.6a61-jasper-1302923454/index_image/d_6.jpg"></image>
+		<image style="height:600rpx" src="cloud://jasper.6a61-jasper-1302923454/index_image/d_4.jpg"></image>
+		<image src="cloud://jasper.6a61-jasper-1302923454/index_image/d_8.jpg"></image>
+		<image style="height:400rpx;" src="cloud://jasper.6a61-jasper-1302923454/index_image/d_7.jpg"></image>
+		<image style="width:600rpx" src="cloud://jasper.6a61-jasper-1302923454/index_image/d_1.jpg"></image>
+	</view>
+
+</view>

@@ -1,0 +1,87 @@
+<view>
+	<swiper class="swiper" autoplay="true" indicator-active-color="white" indicatorDots="true">
+		<swiper-item wx:for="{{swiper}}" wx:key="index">
+			<image src="{{item}}"></image>
+		</swiper-item>
+	</swiper>
+	<view>
+  <!-- 头部自定义组件的引用 -->
+  <component-top inner-text="top"></component-top>
+</view>
+	<view class="home">
+		<image src="cloud://jasper.6a61-jasper-1302923454/index_image/bg2.png"></image>
+	</view>
+	<view class="f_cat">
+		<view wx:for="{{title_cat}}" wx:key="index">
+			<navigator class="t_cat" url="/pages/detail/detail?id={{item.id}}" open-type="navigate">
+				<image src="{{item.url}}"></image>
+				<view>{{item.name}}</view>
+			</navigator>
+		</view>
+	</view>
+	<view class="home_bg">
+		<image src="cloud://jasper.6a61-jasper-1302923454/index_image/gold.png"></image>
+	</view>
+	<view class="f_cat">
+		<navigator wx:for="{{buou}}" wx:key="index" url="../../pages/details/details">
+			<image class="buou" src="{{item.url}}"></image>
+			<view class="b_name">{{item.name}}</view>
+			<view class="b_type">品种:{{item.type}}</view>
+			<view class="b_price">价格:{{item.price}}</view>
+		</navigator>
+	</view>
+	<view class="home_more">
+		<image src="cloud://jasper.6a61-jasper-1302923454/index_image/more.png"></image>
+	</view>
+	<view class="home_sale">
+		<image src="cloud://jasper.6a61-jasper-1302923454/index_image/bg4.jpg"></image>
+	</view>
+
+	<view class="home_shop">
+		<image src="cloud://jasper.6a61-jasper-1302923454/index_image/shop.png"></image>
+	</view>
+
+	<view style="display:flex;flex-wrap:wrap;">
+		<view wx:for="{{shows}}" wx:key="index">
+			<view class="show">
+				<image src="{{item.url}}"></image>
+				<view>
+				</view>
+				{{item.name}}
+			</view>
+		</view>
+	</view>
+
+	<view class="article">
+		<view>
+			<navigator>搞定猫咪坏脾气</navigator>
+		</view>
+		<view>
+			<navigator>猫抓沙发太烦恼如何解决</navigator>
+		</view>
+		<view>
+			<navigator>搞定猫咪坏脾气</navigator>
+		</view>
+		<view>
+			<navigator>搞定猫咪坏脾气?猫咪总是抓沙发怎么办</navigator>
+		</view>
+		<view>
+			<navigator>猫外伤的紧急处理方法</navigator>
+		</view>
+		<view>
+			<navigator>买猫注意事项</navigator>
+		</view>
+		<view>
+			<navigator>有哪些养猫常识?</navigator>
+		</view>
+	</view>
+
+	<view class="bottom_bg">
+			<image src="cloud://jasper.6a61-jasper-1302923454/index_image/erwei.jpg"></image>
+			<view>电话/微信:15200001234</view>
+			<view>上海艳月有限公司  版权所有</view>
+			<view>网站备案:  沪ICP备17049734号-1</view>
+	</view>
+
+	<view class="phone">电话微信:15200001234</view>
+</view>

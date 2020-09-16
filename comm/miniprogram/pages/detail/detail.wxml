@@ -1,0 +1,39 @@
+<view class="title">
+	<image class="title_image" src="cloud://jasper.6a61-jasper-1302923454/index_image/logo.png"></image>
+	<navigator bindtap="tabshow">
+		<image src="cloud://jasper.6a61-jasper-1302923454/index_image/down.png"> </image>
+		网站导航栏
+	</navigator>
+</view>
+<view class="tab" wx:if="{{tabrsohw}}">
+	<navigator url="../index/index">网站首页</navigator>
+	<navigator>关于我们</navigator>
+	<navigator>代售名猫</navigator>
+	<navigator>种猫展示</navigator>
+	<navigator>猫舍荣誉</navigator>
+	<navigator>购买保险</navigator>
+	<navigator>买家秀</navigator>
+	<navigator>喂养指南</navigator>
+</view>
+
+	<view class="home">
+		<image src="cloud://jasper.6a61-jasper-1302923454/index_image/bg2.png"></image>
+	</view>
+<view class="f_cat">
+	<view wx:for="{{title_cat}}" wx:key="index">
+		<navigator class="t_cat" url="/pages/detail/detail?id={{item.id}}" open-type="navigate">
+			<image src="{{item.url}}"></image>
+			<view>{{item.name}}</view>
+		</navigator>
+	</view>
+
+	<view class="detail">
+		<navigator wx:for="{{wu_cat}}" wx:key="index">
+			<image class="detail_image" src="{{item.image}}"></image>
+			<view class="b_name">{{item.name}}</view>
+			<view class="b_type">品种:{{item.type}}</view>
+			<view class="b_price">价格:{{item.price}}</view>
+		</navigator>
+	</view>
+
+</view>

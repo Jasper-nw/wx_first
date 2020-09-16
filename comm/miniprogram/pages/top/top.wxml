@@ -1,0 +1,21 @@
+
+<view class="wrapper">
+<view class="title">
+		<image class="title_image" src="cloud://jasper.6a61-jasper-1302923454/index_image/logo.png"></image>
+		<navigator bindtap="tabshow">
+			<image src="cloud://jasper.6a61-jasper-1302923454/index_image/down.png"> </image>
+			网站导航栏
+		</navigator> 
+	</view>
+	<view class="tab" wx:if="{{tabrsohw}}">
+		<navigator url="../../pages/index/index" open-type="switchTab">网站首页</navigator>
+		<navigator url="../../pages/index/index" open-type="switchTab">关于我们</navigator>
+		<navigator url="../../pages/index/index" open-type="switchTab">代售名猫</navigator>
+		<navigator url="../../pages/index/index" open-type="switchTab">种猫展示</navigator>
+		<navigator url="../../pages/index/index" open-type="switchTab">猫舍荣誉</navigator>
+		<navigator url="../../pages/index/index" open-type="switchTab">购买保险</navigator>
+		<navigator url="../../pages/index/index" open-type="switchTab">买家秀</navigator>
+		<navigator url="../../pages/index/index" open-type="switchTab">喂养指南</navigator>
+	</view>
+    <slot></slot>
+</view>

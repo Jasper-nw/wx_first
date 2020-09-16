@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/details/details",
+    "pages/detail/detail",
+    "pages/top/top",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "返回首页",
+        "iconPath":"./images/d_index.png",
+        "selectedIconPath":"./images/d_index.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "电话咨讯",
+        "iconPath":"./images/d_phone.png",
+        "selectedIconPath":"./images/d_phone.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "微信咨讯",
+        "iconPath":"./images/weixin.png",
+        "selectedIconPath":"./images/weixin.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "更多联系",
+        "iconPath":"./images/d_more.png",
+        "selectedIconPath":"./images/d_more.png"
+      }
+    ],
+    "backgroundColor": "#FF8264"
+  },
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

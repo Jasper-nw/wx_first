@@ -1,0 +1,201 @@
+.swiper {
+  height: 435rpx;
+}
+
+page swiper-item {
+  width: 750rpx;
+  height: 435rpx;
+}
+
+swiper-item image {
+  width: 100%;
+}
+
+navigator image {
+  width: 27rpx;
+  height: 27rpx;
+  background-color: gray;
+}
+
+.title {
+  display: flex;
+  position: fixed;
+  top: 0;
+  background-color: rgba(46, 45, 45, 0.5);
+  width: 100%;
+  height: 90rpx;
+  line-height: 90rpx;
+  font-size: 25rpx;
+  color: white;
+  justify-content: space-between;
+}
+
+.title_image {
+  width: 280rpx;
+  height: 80rpx;
+}
+
+.home {
+  text-align: center;
+  height: 200rpx;
+  line-height: 200rpx;
+}
+
+.home>image {
+  height: 80rpx;
+  width: 300rpx;
+}
+
+.home_bg {
+  text-align: center;
+  height: 300rpx;
+  line-height: 300rpx;
+}
+
+.home_bg>image {
+  height: 280rpx;
+  width: 380rpx;
+}
+
+.detail{
+  display: flex;
+  flex-wrap: wrap;
+}
+.detail_image{
+  width: 300rpx;
+  height: 280rpx;
+  padding: 25rpx;
+  background-color: white;
+}
+
+.f_cat {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.t_cat {
+  padding: 25rpx;
+}
+
+.t_cat view {
+  font-size: 23rpx;
+  text-align: center;
+}
+
+.t_cat image {
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 50%;
+}
+
+.buou {
+  width: 330rpx;
+  height: 330rpx;
+  padding: 15rpx;
+  padding-right: 25rpx;
+  background-color: white;
+}
+
+.b_name {
+  font-size: 28rpx;
+  padding-top: 20rpx;
+  padding-left: 20rpx;
+}
+
+.b_type {
+  font-size: 25rpx;
+  color: gray;
+  padding: 20rpx;
+}
+
+.b_price {
+  color: orangered;
+  font-size: 20rpx;
+  padding-bottom: 20rpx;
+  padding-left: 20rpx;
+}
+
+.tab {
+  position: fixed;
+  left: 580rpx;
+  top: 90rpx;
+  width: 178rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  color: white;
+}
+
+.tab>navigator {
+  background-color: rgba(10, 10, 10, 0.7);
+  padding-left: 25rpx;
+}
+
+.home_more{
+  height: 200rpx;
+  line-height: 200rpx;
+  text-align: center;
+}
+.home_more>image{
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.home_sale>image{
+     width: 100%;
+     height: 555rpx;
+}
+
+.home_shop{
+ text-align: center;
+ height: 300rpx;
+ line-height: 300rpx;
+}
+
+.home_shop>image{
+  width: 280rpx;
+  height: 220rpx;
+}
+
+.show{
+  padding: 30rpx;
+  font-size: 26rpx;
+ text-align: center;
+}
+.show>image{
+  width: 286rpx;
+  height: 260rpx;
+}
+
+.article>view{
+     margin-left: 50rpx;
+     height: 80rpx;
+     line-height: 80rpx;
+     font-size: 25rpx;
+     border-bottom: 1px solid rgba(206, 205, 205,0.7);
+}
+
+.bottom_bg{
+  background: url('http://static.viposs.com/tpl/user/s/senxicat_com/2/images/bg5.jpg')  no-repeat;
+  background-size:100% 100%;
+  width: 100%; 
+  height: 600rpx;
+  margin-top: 40rpx;
+}
+.bottom_bg>image{
+  width: 280rpx;
+  height: 260rpx;
+  padding: 30rpx;
+}
+.bottom_bg>view{
+  padding: 20rpx;
+  font-size: 25rpx;
+}
+
+.phone{
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  font-size: 22rpx;
+}
+
